@@ -1,0 +1,232 @@
+.content-wrap {
+    padding-bottom: 0px;
+    padding-top: 93px;
+}
+
+@media (max-width: 991px) {
+    .content-wrap {
+        padding-top: 47px;
+    }
+}
+
+.scretched #wrapper {
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
+}
+
+#content .container {
+    position: relative;
+}
+
+.cs-page-title-1 .cs-row-title {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.cs-page.title-1 .cs-col-txt{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    height: calc(100% - 60px);
+}
+
+.cs-page-title-1 h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.46);
+}
+
+.cs-page-title-1 h1 u {
+    text-decoration: none;
+    position: relative;
+    z-index: 0;
+}
+
+.cs-page-title-1 h1 u:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+    border-bottom: 4px solid #0077b6;
+    z-index: -1;
+}
+
+.cs-page-title-1 .cs-text-wrapper {
+    display: table;
+    height: 100%;
+}
+
+#content [class*="col-"] {
+    margin-bottom: 60px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+#header .container{
+    position: relative;
+}
+
+.header-top{
+    height: 48px;
+    background: linear-gradient(210.75deg, #0077b6 0%, #00527f 100%);
+}
+
+.cs-logo {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.cs-primary-menu > ul {
+    list-style: none;
+    margin: 0px;
+    height: 100%;
+    text-align: center;
+    font-size: 0px;
+}
+
+.cs-primary-menu > ul > li {
+    display: inline-block;
+    line-height: 48px;
+    width: 140px;
+    vertical-align: top;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.cs-primary-menu > ul > li > a {
+    color: #ffffff;
+    font-family: '__Roboto_792391';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    -webkit-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    text-decoration: none;
+}
+
+.cs-primary-menu > ul > li.cs-active-nav {
+    background: #ffffff;
+}
+
+.cs-primary-menu > ul > li.cs-active-nav > a {
+    color: #0077b6;
+}
+
+.cs-demo-button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.btn-request-demo {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 0;
+    min-width: 150px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 29px;
+    font-weight: normal;
+    padding-top: 2px;
+    text-align: center;
+    -webkit-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+.btn-request-demo:hover {
+    background: white;
+    color: #0077b6;
+    -webkit-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+.header-bottom{
+    box-shadow: 0 20px 29px 0 rgba(0, 0, 0, 0.15);
+    background: #ffffff;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    height: 93px;
+}
+
+.cs-dropdown-logo {
+    text-align: left;
+    padding-left: 75px;
+}
+
+.cs-dropdown-logo img {
+    max-width: none;
+}
+
+.cs-dropdown-submenu-wrapper {
+    /* font-size: 0px; */
+    text-align: left;
+}
+
+.cs-dropdown-submenu-wrapper ul.tab-nav {
+    border-bottom: none;
+    white-space: nowrap;
+}
+
+.cs-dropdown-submenu-wrapper ul.tab-nav li,
+.cs-dropdown-submenu-wrapper ul.tab-nav li:first-child {
+    box-sizing: content-box;
+    margin: 0px;
+    border: none;
+    height: auto;
+    display: inline-block;
+    float: none;
+}
+
+.cs-dropdown-submenu-wrapper ul.tab-nav li {
+    padding-left: 70px;
+}
+
+.cs-dropdown-submenu-wrapper ul.tab-nav li:first-child {
+    padding-left: 100px;
+}
+
+.cs-dropdown-submenu-wrapper ul.tab-nav li a {
+    padding: 0px;
+    height: auto;
+    background: transparent;
+}
+
+ul.tab-nav li a {
+    display: block;
+    color: #444;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cs-dropdown-submenu-wrapper ul.tab-nav li.cs-active-tab a,
+.cs-dropdown-submenu-wrapper ul.tab-nav li.cs-initial-active-tab a {
+    background: transparent;
+    top: 0px;
+}
+
+.cs-dropdown-submenu-wrapper ul.tab-nav li a span {
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.cs-dropdown-submenu-wrapper ul.tab-nav li.cs-active-tab a span,
+.cs-dropdown-submenu-wrapper
+    ul.tab-nav
+    li.cs-initial-active-tab:not(.cs-inactive-tab)
+    a
+    span {
+    border-bottom: 2px solid #0e75c4;
+}
